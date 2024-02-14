@@ -1,0 +1,114 @@
+/* Global styles */
+.payment-page {
+  background-image: url('../images/dd1.png'); /* Replace 'background-image.jpg' with your image path */
+  background-position: center;
+  /* background-color: rgb(7, 0, 0); Transparent black overlay */
+  /* background: linear-gradient(to right, #abe9cd, #3eadcf); */
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+.payment-header {
+  text-align: center;
+  padding: 20px;
+}
+
+.headline_payment {
+    margin-top: 100px;
+  font-family: 'Protest Revolution', sans-serif;
+  font-size: 36px;
+}
+
+.subheadline_payment {
+  font-family: 'Playfair Display', serif;
+  font-size: 18px;
+}
+
+/* Form styles */
+.payment-form {
+  /* background-color: rgba(255, 255, 255, 0.058); Transparent white background */
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: 0 auto;
+  font-family: 'Open Sans',sans-serif;
+
+}
+
+/* Section styles */
+/* .user-details_payment,
+.course-selection_payment,
+.payment-options_payment,
+.payment-gateway_payment,
+.review-payment_payment { */
+  
+  /* margin-bottom: 20px; */
+  /* border: white 2px solid; */
+  /* border-radius: 10px solid; */
+/* } */
+
+.user-details_payment .payment-input
+{
+  border-bottom: #fff;
+}
+.course-selection_payment .payment-input
+{
+  align-items: center;
+  margin-left: 225px;
+  border: #fff 1px;
+  /* border-block-color:red ; */
+}
+/* Input styles */
+.payment-input {
+  /* width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.744); /* Semi-transparent white background */
+  /* color: rgb(14, 13, 13); */ 
+  width: 100%;
+  height: 40px;
+  background:transparent;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  color: #fff;
+}
+
+/* Select styles */
+.payment-input.select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  /* background-color: beige; */
+  background-color: rgba(255, 255, 255, 0.3); 
+  color: black;
+}
+
+/* Button styles */
+.payment-button {
+  /* width: %; */
+  align-content: center;
+  align-self: center;
+  margin-left: 225px;
+  padding: 10px;
+  background-color: white; /* Green */
+  border: none;
+  border-radius: 5px;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  
+}
+
+.payment-button:hover {
+  background-color: #45a049;
+}
+
+.payment-button:active {
+  background-color: #3e8e41;
+}
